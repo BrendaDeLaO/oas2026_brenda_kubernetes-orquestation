@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: laboratorio
+data:
+  MENSAJE: "Bienvenido a mi aplicación en Kubernetes"
+  COLOR: "azul"
+  
